@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<title>contacter</title>
+	<meta charset="utf-8">
+    <link rel="shortcut icon" href="cfp-logoa.png">
+    <style>
+        
+    .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .fish
+    {
+      position: absolute;
+      top: 250px;
+      left: 1300px;
+    }
+  
+    #headersoutinfo{
+        height: 84px;
+        background-color: rgb(255, 255, 255);
+    }
+    #headertablesoutinfo{
+        display: table;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #linkmenusoutinfo{
+        min-width: 696px;
+        padding: 20px 16px;
+        display: inline;
+        font-size: 20;
+    }
+    a{
+        text-decoration: none;
+    }
+    </style> 
+</head>
+<body style="background-color:rgb(134, 134, 134);">
+
+<body link="#000000" vlink="000000" alink="000000">     
+    <div id="headersoutinfo">  
+        <div id="headertablesoutinfo">
+            <a id="linkmenusoutinfo" href="lol new work.html"><img src="cfp-logo.png" height="85" width="279"></a>
+            <a id="linkmenusoutinfo" href="car.html">Carrefours</a>
+            <a id="linkmenusoutinfo" href="pro.html">Programmes</a>
+            <a id="linkmenusoutinfo" href="a.html">À propos du CFP</a>
+            <a id="linkmenusoutinfo" href="cona.html">Nous contacter</a>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center><form method="post" action="mailto:charles.ross@ped.csmb.qc.ca">
+
+                <label>Nom : </label> <input type="text" name="nom"/><br>
+                <label>Prénom : </label> <input type="text" name="prenom"/><br>
+                <label>Adresse : </label> <input type="text" name="adresse"/><br>
+                <label>Code Postal : </label> <input type="text" name="codepos"/><br>
+                <label>Tel : </label> <input type="text" name="tel"/><br>
+                <br>
+                <label>Veuillez indiquer votre niveau d'étude :</label><br>
+                <input type="radio" name="niv" value="universitaire"><label>Universitaire</label><br>
+                <input type="radio" name="niv" value="collegial"><label>Collégial</label><br>
+                <input type="radio" name="niv" value="secondaire"><label>Secondaire</label><br>
+                <input type="radio" name="niv" value="primaire"><label>Primaire</label><br>
+                <br>
+                <label>Votre opinion :</label><br>
+                <select name="opinion">
+                    <option value="trsatis">Très satisfait</option>
+                    <option value="satis">Satisfait</option>
+                    <option value="indif">Indifférent</option>
+                    <option value="nul">C'est nul !</option>
+                </select><br>
+                <br>
+                <label>Vos commentaires</label><br>
+                <textarea name="comm"></textarea><br>
+                <br>
+                <input type="submit" value="envoyer">
+                <input type="submit" value="annuler">
+            </center>
